@@ -1,0 +1,38 @@
+{
+  "CONTRACT_ADDRESS": "0x9AF8718d3B1Ee740A47e1Ba3300E677a6b024BD3",
+  "SCAN_LINK": "https://etherscan.io/address/0x9af8718d3b1ee740a47e1ba3300e677a6b024bd3",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 1
+  },
+  "NFT_NAME": "Zodiac Monster Tygr",
+  "SYMBOL": "TYGR",
+  "MAX_SUPPLY": 8888,
+  "WEI_COST": 80000000000000000,
+  "DISPLAY_COST": 0.08,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/zodiac-monster-tygr",
+  "JOINUS_LINK": "https://discord.gg/UjGy2bemVg",
+  "SHOW_BACKGROUND": true,
+  "STATUS": "",
+  "FAQ": [
+    {
+      "F": "How Can I Buy a Zodiac Warrior?",
+      "Q": "You can buy on our mint page, or on Opensea.io."
+    },
+    {
+      "F": "What is the mint price?",
+      "Q": "0.08ETH"
+    },
+    {
+      "F": "How many can I mint?",
+      "Q": "Max 12 per person."
+    },
+    {
+      "F": "How about the rarities?",
+      "Q": "Zodiac Monster rarity list will be revealed after OpenSea listing. "
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+.banner{
+    height: 1000px;
+    background: url('../images/banner0_bg.jpg') no-repeat;
+    background-size: auto 100%;
+
+    .container{
+        width: 100%;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 60px 10px 165px 10px;
+        .content{
+            position: relative;
+            margin-top: 140px;
+            p{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 60%;
+                color: #fff;
+                font-size: 30px;
+                margin-right: 3%;
+                word-break: normal;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+        }
+    }
+    @media screen and (min-width: 0px) and (max-width: 375px) {
+        height: 400px;
+        .container {
+            padding: 30px 10px 70px 10px;
+            .content{
+                margin-top: 80px;
+                p {
+                    font-size: 8px;
+                }
+            }
+        }
+    }
+    @media screen and (min-width: 375px) and (max-width: 750px) {
+        height: 600px;
+        .container {
+            padding: 50px 10px 150px 10px;
+            .content{
+                margin-top: 80px;
+                p {
+                    font-size: 8px;
+                }
+            }
+        }
+    }
+    @media screen and (min-width: 750px) and (max-width: 1280px) {
+        height: 800px;
+        .container {
+            padding: 30px 10px 85px 10px;
+            .content p {
+                font-size: 15px;
+            }
+        }
+    }
+    @media screen and (min-width: 1280px) {
+        height: 900px;
+        .container .content p {
+            font-size: 20px;
+        }
+    }
+    @media screen and (min-width: 1366px) {
+        .container .content p {
+            font-size: 20px;
+        }
+    }
+    @media screen and (min-width: 1440px) {
+        .container .content p {
+            font-size: 25px;
+        }
+    }
+}
+.menu{
+    &._flex,
+    ._flex{
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .menu-data {
+        li a{
+            color: #fff;
+            font-size: 24px;
+            padding: 0 40px;
+            text-decoration: none;
+        }
+    }
+
+    .user{
+        margin-left: 90px;
+    }
+    @media screen and (min-width: 0px) and (max-width: 750px) {
+        &._flex,
+        ._flex{
+            justify-content: space-around;
+        }
+        .logo{
+            width: 200px;
+        }
+        .menu-data {
+            li a{
+                font-size: 24px;
+                padding: 0 20px;
+                font-size: 8px;
+            }
+        }
+        .user{
+            width: 35px;
+            margin-left: 45px;
+        }
+    }
+    @media screen and (min-width: 750px) and (max-width: 1280px) {
+        .logo{
+            width: 200px;
+        }
+        .menu-data {
+            li a{
+                font-size: 30px;
+                padding: 0 20px;
+                font-size: 8px;
+            }
+        }
+        .user{
+            width: 35px;
+            margin-left: 45px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 750px) {
+
+}
