@@ -219,7 +219,7 @@
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 375px) {
+@media screen and (min-width: 0px) and (max-width: 750px) {
     .page2{
         .img{
             width: 80%;
@@ -228,6 +228,7 @@
         .content{
             width: 300px;
             font-size: 14px;
+            padding: 50px;
             h2{
                 margin-bottom: 30px;
             }
@@ -246,6 +247,7 @@
     }
     .page3{
         .content{
+            max-width: 300px;
             padding: 30px 0 15px;
             img{
                 width: auto;
@@ -284,7 +286,7 @@
     }
     .page5{
         .img{
-            padding: 20px 0 30px;
+            padding: 20px 10px 30px;
             font-size: 14px;
             border-top: 1px solid #ba1d25;
             h2{
@@ -314,84 +316,84 @@
         }
     }
 }
-@media screen and (min-width: 375px) and (max-width: 750px) {
-    .page2{
-        .img{
-            width: 80%;
-            margin-top: -150px;
-        }
-        .content{
-            width: 300px;
-            font-size: 14px;
-            h2{
-                margin-bottom: 30px;
-            }
-            .count{
-                font-size: 60px;
-            }
-        }
-        .sold_out{
-            .count{
-                font-size: 20px;
-            }
-            ._btn{
-                margin-top: 30px;
-            }
-        }
-    }
+// @media screen and (min-width: 375px) and (max-width: 750px) {
+//     .page2{
+//         .img{
+//             width: 80%;
+//             margin-top: -150px;
+//         }
+//         .content{
+//             width: 300px;
+//             font-size: 14px;
+//             h2{
+//                 margin-bottom: 30px;
+//             }
+//             .count{
+//                 font-size: 60px;
+//             }
+//         }
+//         .sold_out{
+//             .count{
+//                 font-size: 20px;
+//             }
+//             ._btn{
+//                 margin-top: 30px;
+//             }
+//         }
+//     }
 
-    .page3{
-        .content{
-            padding: 30px 0 30px;
-            max-width: 300px;
-        }
-        h2{
-            font-size: 12px;
-            margin-bottom: 20px;
-        }
-    }
-    .page4,
-    .page5{
-        .content{
-            font-size: 10px;
-            line-height: 1.2;
-            p{
-                font-size: 10px;
-                margin-bottom: 5px;
-            }
-        }
-    }
-    .page5{
-        .img{
-            padding: 60px 0 80px;
-            font-size: 14px;
-            h2{
-                margin-bottom: 30px;
-            }
-        }
-    }
-    .page6{
-        font-size: 12px;
-        padding: 50px 0 60px;
-        .container{
-            .content{
-                margin-bottom: 30px;
-                h2{
-                    font-size: 18px;
-                    margin-bottom: 20px;
-                }
-            }
-        }
-    }
-    .page7{
-        font-size: 12px;
-        padding: 30px 10px;
-        h2{
-            font-size: 16px;
-            margin-bottom: 20px;
-        }
-    }
-}
+//     .page3{
+//         .content{
+//             padding: 30px 0 30px;
+//             max-width: 300px;
+//         }
+//         h2{
+//             font-size: 12px;
+//             margin-bottom: 20px;
+//         }
+//     }
+//     .page4,
+//     .page5{
+//         .content{
+//             font-size: 10px;
+//             line-height: 1.2;
+//             p{
+//                 font-size: 10px;
+//                 margin-bottom: 5px;
+//             }
+//         }
+//     }
+//     .page5{
+//         .img{
+//             padding: 60px 0 80px;
+//             font-size: 14px;
+//             h2{
+//                 margin-bottom: 30px;
+//             }
+//         }
+//     }
+//     .page6{
+//         font-size: 12px;
+//         padding: 50px 0 60px;
+//         .container{
+//             .content{
+//                 margin-bottom: 30px;
+//                 h2{
+//                     font-size: 18px;
+//                     margin-bottom: 20px;
+//                 }
+//             }
+//         }
+//     }
+//     .page7{
+//         font-size: 12px;
+//         padding: 30px 10px;
+//         h2{
+//             font-size: 16px;
+//             margin-bottom: 20px;
+//         }
+//     }
+// }
 @media screen and (min-width: 750px) and (max-width: 1280px) {
     .page2{
         .content{
